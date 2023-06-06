@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(255, 193, 193, 0.2) 0%, rgba(255, 193, 193, 0) 100%), #353333;
+    position: relative;
+}
+
+img {
+    background: url(fotos/foto.jpeg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(2px);
+    border-radius: 278.5px;
+    position: absolute;
+    width: 300px;
+    height: 305px;
+    left: 620px;
+    top: 61px;
+}
+
+.paragrafo_principal {
+    position: absolute;
+    width: 746px;
+    height: 220px;
+    left: 410px;
+    top: 400px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.apresentacao_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao_link_linkedin {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px;
+    gap: 10px;
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+    left: 588px;
+    top: 550px;
+    background: linear-gradient(0deg, #5FF8F8, #5FF8F8), #0EBCBC;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.botao_link_sobremim {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px;
+    gap: 10px;
+    position: absolute;
+    width: 83px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+    left: 710px;
+    top: 550px;
+    background: linear-gradient(0deg, #5FF8F8, #5FF8F8), #0EBCBC;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.botao_link_github {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px;
+    gap: 10px;
+    position: absolute;
+    width: 55px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+    left: 851px;
+    top: 550px;
+    background: linear-gradient(0deg, #5FF8F8, #5FF8F8), #0EBCBC;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.foto1 {
+    background: url(fotos/foto.jpeg);
+    width: 300px;
+    height: 305px;
+    position: absolute;
+    left: 210px;
+    top: 109px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(2px);
+    border-radius: 240px;
+}
+
+.botao_link_inicio {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px;
+    gap: 10px;
+    position: absolute;
+    width: 42px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+    left: 315px;
+    top: 470px;
+    background: linear-gradient(0deg, #5FF8F8, #5FF8F8), #0EBCBC;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.texto_sobre {
+    position: absolute;
+    width: 800px;
+    height: 550px;
+    left: 650px;
+    top: 174px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.texto_sobre1 {
+    position: absolute;
+    width: 800px;
+    height: 550px;
+    left: 650px;
+    top: 130px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
